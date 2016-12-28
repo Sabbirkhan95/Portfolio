@@ -1,0 +1,93 @@
+body{font-family: 'Raleway', sans-serif;margin: 0;}
+/*Social Media Icon */
+.fa-facebook,.fa-google-plus,.fa-twitter {width: 40px;height: 40px;border: 1px solid red;padding: 11px;color: #fff;border-radius: 35px;transition: .35s;}
+.fa-facebook{background:#3b5998;border-color: #3b5998;}
+.fa-google-plus{background: #d34836; border-color:#d34836;}
+.fa-twitter{background:#00aced; border-color:#00aced;}
+.fa-facebook:hover,.fa-google-plus:hover,.fa-twitter:hover{background: transparent;}
+.fa-facebook:hover{color:#3b5998}
+.fa-google-plus:hover{color:#d34836}
+.fa-twitter:hover{color:#00aced}
+/*Social Media Icon */
+
+/*Header and Navbar*/
+.header{width: 100%;background: url(../images/background-image.jpg) no-repeat;background-size: cover;background-position: bottom;}
+.navbar-brand{cursor: initial;}
+.navbar-brand>img{width: 60%;}
+.navbar-mode{background-color: transparent;border: 0px solid transparent;border-radius: 0px; margin: 0px;}
+.navbar-default .navbar-nav>li>a{color: rgba(242, 2, 2, 0.63);font-weight: bold;font-size:18px;}
+.navbar-color>li>a{border: 2px solid transparent;border-radius:35px;padding: 5px 10px;margin: 3px;margin-top: 18px;transition: .35s;}
+.navbar-collapse .navbar-color>li>a:hover{border-color: rgba(242, 2, 2, 0.63);color: rgba(242, 2, 2, 0.63);}
+.intro{ padding:5.5em 0em;}
+.intro h1, .intro h2, .intro a{color: rgba(242, 2, 2, 0.63);} 
+.intro h1{font-size: 4em;font-weight: 700; margin: 0;}
+.intro a{font-style: italic;color: red;}
+.intro a:hover{text-decoration: none;}
+.info button{margin-top: 26px;}
+/*End of Header and Navbar*/
+/*Conpany Info*/
+.com-info{padding: 3em 0em;background-color: rgba(224, 224, 224, 0.59);}
+.com-info .info{padding: 15px;}
+.com-info p{line-height: 1.6; text-align: justify;}
+/*End Conpany Info*/
+/*Services CSS*/
+.services{padding: 4em 0em; background-color: rgba(224, 224, 224, 0.59);}
+.services h3, .com-info h3 {color: rgba(242, 2, 2, 0.63);font-size: 20px;font-weight: bold;padding-bottom: 18px;}
+.services img{width: 100%;}
+.services p{padding:1.8em .05em 0em; line-height: 1.6;}
+/*End Services CSS*/
+
+form>input, form>select, form>textarea {margin-bottom: 12px;}
+
+.sk-btn, .sk-btn-1{padding: 8px;font-weight: bold;}
+.sk-btn{width: 120px;background: rgba(242, 2, 2, 0.63);color: #fff;}
+.sk-btn-1{width: 130px;font-weight: bold;color: rgba(242, 2, 2, 0.63);}
+.sk-btn:hover, .sk-btn-1:hover{background: #ed9873; border-color: #ed9873; color: #fff;}
+
+.expertise img{width: 30%; padding: 10px;}
+
+/*Carousel Section CSS*/
+.portfolio, .punchline { padding: 1.5em 0em; padding-left:10px;}
+.portfolio{background: url(../images/download.jpg) no-repeat; background-size: cover; }
+.punchline {padding-left:10px;}
+.portfolio h2{font-weight: bold;color:rgba(242, 2, 2, 0.63)}
+.portfolio p{padding: 16px 0px; font-size: 18px;font-weight: bold;}
+.portfolio img{width: 100%; height: 240px; padding: 2em 0em;}
+.testimonials{border-top:2px solid #eee; padding: 2.5em 0em;}
+.testimonials p{text-align: justify;}
+.testimonials .carousel{ width: 100%;}
+.testimonials .carousel img{width: 70%; text-align: right;}
+
+/*End Carousel Section CSS*/
+.contact{background-color: #efefef; padding: 4em 0em;}
+.contact h4, .contact address, .contact ul, .contact h5, .contact p{padding:0px 10px;line-height: 1.6;}
+.contact p{font-size: 20px;font-weight: 700;color:rgba(242, 2, 2, 0.63); padding-bottom: 20px;}
+.sk-form{ background: #e6e6e6;margin-bottom: 14px;height: 40px;}
+.contact h5{ font-size: 14px; }    
+.footer-menu{padding: 1.5em 0em; position: relative;}
+.footer-menu li a{margin: 7px 0px;color: #344b8f; font-size: 20px;font-weight: bold;} 	
+.footer-menu li a:hover{text-decoration: none; color: #30bae8;}
+.footer-menu p{ color: gray,}
+.back_to_top{display: none; border: 1px solid #9cd3ca;border-radius: 4px;width: 40px;height: 40px;position: fixed;bottom:2em;right: 2em;padding: 10px;background: transparent;color: #9cd3ca;}
+.back_to_top:hover{cursor: pointer;background: rgba(242, 2, 2, 0.63);color:rgb(0,0,0)}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.social-media{display: none;}
+	.services h3, .com-info h3,.com-info {text-align: center;}
+	.testimonials{display: none;}
+	.contact,.contact .text-right{text-align: center;}
+	.contact p{text-align: center; padding-top: 30px;}
+	form{padding: 0px 10px;}
+	.footer-menu li a{font-size: 12px;}
+
+}
+@media (min-width: 768px) and (max-width: 990px) {
+	.social-media{display: none;}
+	.services h3{font-size: 16px;}
+	.testimonials .carousel-indicators{bottom: -27px;}
+	.contact,.contact .text-right{text-align: center;}
+}
