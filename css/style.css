@@ -52,7 +52,7 @@ form>input, form>select, form>textarea {margin-bottom: 12px;}
 .punchline {padding-left:10px;}
 .portfolio h2{font-weight: bold;color:rgba(242, 2, 2, 0.63)}
 .portfolio p{padding: 16px 0px; font-size: 18px;font-weight: bold;}
-.portfolio img{width: 100%; height: 240px; padding: 2em 0em;}
+.portfolio img{width: 100%; height: 240px; border-radius:7px;}
 .testimonials{border-top:2px solid #eee; padding: 2.5em 0em;}
 .testimonials p{text-align: justify;}
 .testimonials .carousel{ width: 100%;}
